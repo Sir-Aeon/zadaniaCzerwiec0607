@@ -25,6 +25,7 @@ public class Zad2 {
 
 
             String liczbaString = Integer.toString(result);
+            System.out.println(liczbaString);
 
 
 
