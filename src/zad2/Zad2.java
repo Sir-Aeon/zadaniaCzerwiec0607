@@ -16,16 +16,24 @@ public class Zad2 {
                result = binar % 2;
                // System.out.print(result);
                 binar /= 2;
-            }else {
+            }else if (binar % 2 == 1){
                 result = binar % 2;
                 //System.out.print(result);
                 binar /= 2;
-            }
+            }else
+                break;
+
 
 
 
             String liczbaString = Integer.toString(result);
-            System.out.println(liczbaString);
+            //System.out.print(liczbaString +"\n");
+            StringBuilder odw = new StringBuilder(liczbaString).reverse();
+            System.out.print(odw);
+
+
+
+
 
 
 
